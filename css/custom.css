@@ -1288,7 +1288,7 @@ body.clinic_version .desc {
     float: left;
     width: 100%;
     min-height: 540px;
-    background: rgb(0, 242, 255);
+    background: rgb(255, 255, 255);
 }
 .contact-section #googleMap {
     height: 550px !important;
