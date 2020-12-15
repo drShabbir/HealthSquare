@@ -27,11 +27,14 @@
    <!-- Custom CSS -->
    <link rel="stylesheet" href="css/custom.css">
    <!-- Modernizer for Portfolio -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
    <script src="js/modernizer.js"></script>
    <!-- [if lt IE 9] -->
+   
    </head>
    <body class="clinic_version">
       <!-- LOADER -->
+
       <div id="preloader">
          <img class="preloader" src="images/loaders/heart-loading2.gif" alt="">
       </div>
@@ -332,6 +335,7 @@
             <div class="row dev-list text-center">
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeIn;">
                     <div class="widget clearfix">
+                        <!-- <img src="images/doctor_01.jpg" alt="" style="width:330px; height:330px;" class="img-responsive img-rounded"> -->
                         <img src="images/doctor_01.jpg" alt="" style="width:330px; height:330px;" class="img-responsive img-rounded">
                         <div class="widget-title">
                             <h3>Prof. Dr. Shabbir Syed-Abdul</h3>
@@ -346,6 +350,7 @@
 
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeIn;">
                     <div class="widget clearfix">
+                        <!-- <img src="images/doctor_02.jpg" style="width:330px; height:330px;" alt="" class="img-responsive img-rounded"> -->
                         <img src="images/doctor_02.jpg" style="width:330px; height:330px;" alt="" class="img-responsive img-rounded">
                         <div class="widget-title">
                             <h3>Prashanthi Vinjamuri</h3>
@@ -559,7 +564,7 @@
       <!--Modal: modalPush-->
 
 
-      <div class="modal fade" id="modalWearableDevice" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal fade" id="modalWearableDevice" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="margin-left:25px;margin-right:25px;">
          <div class="modal-dialog modal-notify modal-info" role="document">
             <!--Content-->
             <div class="modal-content text-center">
@@ -735,7 +740,14 @@
       <script src="js/all.js"></script>
       <!-- all plugins -->
       <script src="js/custom.js"></script>
-      <!-- map -->
-     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNUPWkb4Cjd7Wxo-T4uoUldFjoiUA1fJc&callback=myMap"></script>
+
+      <script>
+         $( document ).ready(function() {
+            setTimeout(function(){
+               $("#preloader").hide()
+            },700);
+    console.log( "ready!" );
+         });
+      </script>
    </body>
 </html>
