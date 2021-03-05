@@ -15,10 +15,16 @@
 }
 .intro-text h1{
   color: #fff;
-font-size: 62px;
+font-size: 45px;
+text-transform: capitalize;
+}
+.intro-text h1 small{
+  color: #fff;
+  opacity: 1;
 }
 .item h3 {
   color: #fff;
+  font-size: 30px;
 }
 .col-box ul{
   list-style: none;
