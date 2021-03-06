@@ -13,6 +13,14 @@
 .block {
     display: block;
 }
+
+
+.specilalinks ul{
+  list-style-type: square!important;
+  font-weight: bold;
+  color:#0079c1;
+}
+
 .intro-text h1{
   color: #fff;
 font-size: 45px;
