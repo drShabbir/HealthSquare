@@ -17,10 +17,13 @@
 
 .specilalinks ul{
   list-style-type: square!important;
-  font-weight: bold;
-  color:#0079c1;
+  
 }
 
+.specilalinks ul li{
+  font-weight: bold!important;
+  color:#0079c1!important;
+}
 .intro-text h1{
   color: #fff;
 font-size: 45px;
