@@ -78,7 +78,6 @@
         transition: all 0.5s ease 0s;
         background: #c5e2f0;
         text-align: center
-        
     }
 
     .tab .nav-tabs li a:hover {
@@ -109,7 +108,7 @@
         font-size: 22px;
         color: #5b5a5a;
     }
-    
+
     @media only screen and (max-width: 480px) {
         .tab .nav-tabs {
             border-radius: 10px;
@@ -121,8 +120,15 @@
             margin-bottom: 5px;
         }
     }
-    .home-bg{
+
+    .home-bg {
         background-size: cover
+    }
+    
+    .books h2 a{
+        font-size: 18px;
+        color: #000;
+        font-weight: 600
     }
 </style>
 
@@ -418,7 +424,7 @@
             <div class="content">
                 <div class="container">
 
-                    
+
 
                     <div class="blog-box-caption publication">
                         <div class="col-md-12">
@@ -527,12 +533,18 @@
                                         </ol>
                                     </div>
                                     <div role="tabpanel" class="tab-pane fade" id="Section2">
-                                        <div class="row">
+                                        <div class="row ">
                                             <div class="col-md-3">
-                                                <img src="images/b1.jpg" class="img-fluid img-responsive" alt="">
+                                                <a href="https://www.amazon.in/Participatory-Health-Through-Social-Media-ebook/dp/B01H3E4ZDS" target="_blank">
+                                                    <img src="images/b1.jpg" class="img-fluid img-responsive" alt="">
+                                                </a>
+
                                             </div>
-                                            <div class="col-md-9">
-                                                <h2 style="font-size: 24px">Participatory Health through Social Media </h2>
+                                            <div class="col-md-9 books">
+                                                <h2 >
+                                                    <a href="https://www.amazon.in/Participatory-Health-Through-Social-Media-ebook/dp/B01H3E4ZDS" target="_blank">
+                                                        Participatory Health through Social Media </a>
+                                                </h2>
                                                 <p>Edited by: <b>Shabbir Syed-Abdul</b>, Elia Gabarron and Annie Lau </p>
                                                 <p>ISBN: 978-0-12-809269-9. </p>
                                                 <p>Publisher: Elsevier Inc.2016.</p>
@@ -540,10 +552,13 @@
                                         </div>
                                         <div class="row" style="margin-top: 10px">
                                             <div class="col-md-3">
-                                                <img src="images/b2.jpg" class="img-fluid img-responsive" alt="">
+                                                <a href="https://www.amazon.com/Digital-Health-Wearable-Participatory-Applications/dp/0128200774" target="_blank">
+                                                    <img src="images/b2.jpg" class="img-fluid img-responsive" alt=""></a>
                                             </div>
-                                            <div class="col-md-9">
-                                                <h2 style="font-size: 24px">Digital Health : Mobile and Wearable Devices for Participatory Health Applications </h2>
+                                            <div class="col-md-9 books">
+                                                <h2 style="font-size: 24px">
+                                                    <a href="https://www.amazon.com/Digital-Health-Wearable-Participatory-Applications/dp/0128200774" target="_blank">Digital Health : Mobile and Wearable Devices for Participatory Health Applications </a>
+                                                </h2>
                                                 <p>Edited by : <b>Shabbir Syed-Abdul</b> , Xinxin Zhu , Luis Fernandez-Luque </p>
                                                 <p>ISBN10 0128200774 </p>
                                                 <p>ISBN13 9780128200773 </p>
@@ -554,7 +569,7 @@
                                             <div class="col-md-3">
                                                 <img src="images/b1.jpg" class="img-fluid img-responsive" alt="">
                                             </div>
-                                            <div class="col-md-9">
+                                            <div class="col-md-9 books">
                                                 <h2 style="font-size: 24px">Smart Home Technologies and Services for Geriatric Rehabilitation </h2>
                                                 <p>Edited by : Amine Choukou, and <b>Shabbir Syed-Abdul</b></p>
 
@@ -726,7 +741,7 @@
     <script src="assets/js/masonry.pkgd.min.js"></script>
     <script src="assets/js/jquery.backstretch.min.js"></script>
     <script src="assets/js/jquery.stellar.min.js"></script>
-        <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/jquery.shuffle.min.js"></script>
     <script src="assets/js/jquery.hoverdir.js"></script>
     <script src="assets/js/jquery.lazy.min.js"></script>
