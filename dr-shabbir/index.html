@@ -41,14 +41,89 @@
         max-width: 100%;
         height: auto;
     }
-    .publication  li{
-    color:#000!important;
+
+    .publication li {
+        color: #000 !important;
         font-weight: 500;
-    line-height: 1.7;
+        line-height: 1.7;
         margin-bottom: 10px
-}
+    }
 
+    .tab .nav-tabs {
+        display: inline-block;
+        background: #fff;
+        border-radius: 50px;
+        border: none;
+        padding: 6px;
+        margin-top: 25px;
+        width: 100%;
+    }
 
+    .tab .nav-tabs li {
+        float: none;
+        display: inline-block;
+        position: relative;
+        width: 23%;
+        text-align: center
+    }
+
+    .tab .nav-tabs li a {
+        font-size: 16px;
+        font-weight: 500;
+        background: none;
+        color: #000;
+        border: none;
+        padding: 10px 35px;
+        border-radius: 5px;
+        transition: all 0.5s ease 0s;
+        background: #c5e2f0;
+        text-align: center
+        
+    }
+
+    .tab .nav-tabs li a:hover {
+        background: #0079c1;
+        color: #fff;
+        border: none;
+    }
+
+    .tab .nav-tabs li.active a,
+    .tab .nav-tabs li.active a:focus,
+    .tab .nav-tabs li.active a:hover {
+        border: none;
+        background: #0079c1;
+        color: #fff;
+    }
+
+    .tab .tab-content {
+        font-size: 14px;
+        color: #686868;
+        line-height: 25px;
+        text-align: left;
+        padding: 5px 20px;
+        border: 1px solid #ddd;
+        border-top: none;
+    }
+
+    .tab .tab-content h3 {
+        font-size: 22px;
+        color: #5b5a5a;
+    }
+    
+    @media only screen and (max-width: 480px) {
+        .tab .nav-tabs {
+            border-radius: 10px;
+        }
+
+        .tab .nav-tabs li {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+    }
+    .home-bg{
+        background-size: cover
+    }
 </style>
 
 <body>
@@ -342,211 +417,207 @@
         <section id="publications">
             <div class="content">
                 <div class="container">
-                    <header>
-                        <h3>publications</h3>
 
-
-                    </header>
+                    
 
                     <div class="blog-box-caption publication">
-                        <small style="align-content: flex-end;">&#9913; = Correspondent Author</small><br>
-                        <ol>
-                            <li>Wadali, Jagjot Singh, Sanjay P. Sood, Rajesh Kaushish, <strong>Shabbir Syed-Abdul</strong>, Praveen K. Khosla, and Madhu Bhatia. "Evaluation of Free, Open-source, Web-based DICOM Viewers for the Indian National Telemedicine Service (eSanjeevani)." Journal of Digital Imaging 33, no. 6 (2020): 1499-1513.</li>
-                            <li>Uddin, Mohy, and <strong>Shabbir Syed-Abdul</strong>. "Introduction to digital health approach and mHealth applications for participatory health." In Digital Health, pp. 1-6. Elsevier, 2020.</li>
-                            <li>Ryan, Charles, Alexa Minc, Juan Caceres, Alexandra Balsalobre, Achal Dixit, Becky KaPik Ng, Florian Schmitzberger, <strong>Shabbir Syed-Abdul</strong>, and Christopher Fung. "Predicting severe outcomes in Covid-19 related illness using only patient demographics, comorbidities and symptoms." The American Journal of Emergency Medicine (2020).</li>
-                            <li>Cooper J. Galvin; Yu-Chuan (Jack) Li; Shwetambara Malwade; <strong>Shabbir Syed-Abdul</strong>. COVID-19 preventive measures showing an unintended decline in infectious diseases in Taiwan. International Journal of Infectious Diseases. Accepted June 2020.</li>
-                            <li>Dovgan, Erik, Anton Gradi&scaron;ek, Mitja Lu&scaron;trek, Mohy Uddin, Aldilas Achmad Nursetyo, Sashi Kiran Annavarajula, Yu-Chuan Li, and <strong>Shabbir Syed-Abdul</strong>. "Using machine learning models to predict the initiation of renal replacement therapy among chronic kidney disease patients." Plos one 15, no. 6 (2020): e0233976.</li>
-                            <li>Srinivasan, Kathiravan, Nivedhitha Mahendran, Durai Raj Vincent, Chuan-Yu Chang, and <strong>Shabbir Syed-Abdul</strong>. "Realizing an Integrated Multistage Support Vector Machine Model for Augmented Recognition of Unipolar Depression." Electronics 9, no. 4 (2020): 647.</li>
-                            <li><strong>Syed-Abdul, S</strong>., Firdani, R.P., Chung, H.J., Uddin, M., Hur, M., Park, J.H., Kim, H.W., Gradi&scaron;ek, A. and Dovgan, E., 2020. Artificial Intelligence based Models for Screening of Hematologic Malignancies using Cell Population Data. Scientific Reports, 10(1), pp.1-8.</li>
-                            <li>Uddin, Mohy, and <strong>Shabbir Syed-Abdul</strong>. "Data Analytics and Applications of the Wearable Sensors in Healthcare: An Overview." (2020): 1379.</li>
-                            <li>Hors-Fraile, Santiago, Shwetambara Malwade, Francisco Luna-Perejon, Claudio Amaya, Ant&oacute;n Civit, Francine Schneider, Panagiotis Bamidis, <strong>Shabbir Syed-Abdul</strong>, Yu-Chuan Li, and Hein de Vries. "Opening the Black Box: Explaining the Process of Basing a Health Recommender System on the I-Change Behavioural Change Model." IEEE Access (2019).</li>
-                            <li>Luna-Perejon, Francisco, Shwetambara Malwade, Charis Styliadis, Javier Civit, Daniel Cascado-Caballero, Evdokimos Konstantinidis, <strong>Shabbir Syed Abdul</strong>, Panagiotis D. Bamidis, Anton Civit, and Yu-Chuan Jack Li. "Evaluation of user satisfaction and usability of a mobile app for smoking cessation." Computer methods and programs in biomedicine 182 (2019): 105042.</li>
-                            <li><strong>Syed-Abdul, S</strong>., Malwade, S., Nursetyo, A. A., Sood, M., Bhatia, M., Barsasella, D., ... &amp; Li, Y. C. J. (2019). Virtual reality among the elderly: a usefulness and acceptance study from Taiwan. BMC geriatrics, 19(1), 1-10.</li>
-                            <li>Nursetyo, A. A., <strong>Syed-Abdul, S</strong>., Uddin, M., &amp; Li, Y. J. (2019). Graft Rejection Prediction Following Kidney Transplantation Using Machine Learning Techniques: A Systematic Review and Meta-Analysis. Studies in health technology and informatics, 264, 10-14.</li>
-                            <li>Uddin, M., &amp; <strong>Syed-Abdul, S</strong>. (2018). Role of electronic patient reported safety incidents in improving patient safety and care.&nbsp;International Journal for Quality in Health Care.</li>
-                            <li>Hors-Fraile, Santiago, Shwetambara Malwade, Dimitris Spachos, Luis Fernandez-Luque, Chien-Tien Su, Wei-Li Jeng, <strong>Shabbir Syed-Abdul</strong>, Panagiotis Bamidis, and Yu-Chuan Jack Li. "A recommender system to quit smoking with mobile motivational messages: study protocol for a randomized controlled trial."&nbsp;Trials&nbsp;19, no. 1 (2018): 618.</li>
-                            <li>Islam, M., Poly, T. N., Walther, B. A., Dubey, N. K., Anggraini Ningrum, D. N., &amp; <strong>Shabbir, S. A</strong>. (2018). Adverse outcomes of long-term use of proton pump inhibitors: a systematic review and meta-analysis.&nbsp;European journal of gastroenterology &amp; hepatology,&nbsp;30(12), 1395-1405.</li>
-                            <li>Dubey, Navneet, Dina Ningrum, Rajni Dubey, Yue-Hua Deng, Yu-Chuan Li, Peter Wang, Joseph Wang, <strong>Shabbir Syed-Abdul</strong>, and Win-Ping Deng. "Correlation between diabetes mellitus and knee osteoarthritis: A dry-to-wet lab approach."&nbsp;International journal of molecular sciences&nbsp;19, no. 10 (2018): 3021.</li>
-                            <li>Thakur, Saurabh, <strong>Shabbir Abdul</strong>, Hsiao-Yean Chiu, Ram Roy, Po-Yu Huang, Shwetambara Malwade, Aldilas Nursetyo, and Yu-Chuan Li. "Artificial-Intelligence-Based Prediction of Clinical Events among Hemodialysis Patients Using Non-Contact Sensor Data."&nbsp;Sensors&nbsp;18, no. 9 (2018): 2833.</li>
-                            <li>Iqbal, U., Dagan, A., <strong>Syed-Abdul, S</strong>., Celi, L. A., Malwade, S., Hsu, M. H., &amp; Li, Y. J. (2018). A hackathon promoting Taiwanese health-IoT innovation.&nbsp;Computer methods and programs in biomedicine,&nbsp;163, 29.</li>
-                            <li>Ganapathy, K., <strong>Abdul, S. S</strong>., &amp; Nursetyo, A. A. (2018). Artificial intelligence in neurosciences: A clinician's perspective.&nbsp;Neurology India,&nbsp;66(4), 934.</li>
-                            <li>Shwetambara Malwade, <strong>Shabbir Syed Abdul*</strong>, Mohy Uddin, Aldilas Achmad Nursetyo, Luis Fernandez-Luque, Xinxin Katie Zhu, Liezel Cilliers, Chun-Por Wong, Panagiotis Bamidis, Yu-Chuan Jack Li (2018). &ldquo;Mobile and wearable technologies in healthcare for the ageing population&rdquo;. Computer methods and programs in biomedicine. IF 2.503, Rank 20.2%, Total score: 54.0 <a href="https://www.sciencedirect.com/science/article/pii/S0169260717314578">https://www.sciencedirect.com/science/article/pii/S0169260717314578</a></li>
-                            <li>Shwetambara Kekade, Chung-Ho Hseieh, Md Mohaimenul Islam, Suleman Atique, Abdulwahed Mohammed Khalfan, Yu-Chuan Li, <strong>Shabbir Syed Abdul*</strong>(Jan.2018)."The usefulness and actual use of wearable devices among the elderly population". Computer methods and programs in biomedicine.</li>
-                            <li>Suleman Atique, Ta-Chien Chan, Chien-Chou Chen, Chien-Yeh Hsu, Somia Iqtidar, Val&eacute;rie R Louis, <strong>Syed Abdul Shabbir</strong>, Ting-Wu Chuang(Dec.2017), "Investigating spatio-temporal distribution and diffusion patterns of the dengue outbreak in Swat, Pakistan". Journal of infection and public health.</li>
-                            <li>Md Mohaimenul Islam, Hsuan-Chia Yang, Phung-Anh Nguyen, Tahmina Nasrin Poly, Chih-Wei Huang, Shwetambara Kekade, Abdulwahed Mohammed Khalfan, Tonmoy Debnath, Yu-Chuan Jack Li, <strong>Shabbir Syed Abdul</strong>(Dec.2017). "Exploring association between statin use and breast cancer risk: an updated meta-analysis". Archives of gynecology and obstetrics.</li>
-                            <li>Hong-Jie Dai, Emily Chia-Yu Su, Mohy Uddin, Jitendra Jonnagaddala, Chi-Shin Wu, <strong>Shabbir Syed-Abdul</strong>(Nov.2017). "Exploring associations of clinical and social parameters with violent behaviors among psychiatric patients". Journal of biomedical informatics.</li>
-                            <li>Usman Iqbal, Tzu-Hao Chang, Phung-Anh Nguyen, <strong>Shabbir Syed-Abdul</strong>, Hsuan-Chia Yang, Chih-Wei Huang, Suleman Atique, Wei-Chung Yang, Max Moldovan, Wen-Shan Jian, Min-Huei Hsu, Yun Yen, Yu-Chuan Jack Li(Oct.2017). "Benzodiazepines use and breast cancer risk: A population-based study and gene expression profiling evidence". Journal of biomedical informatics.</li>
-                            <li>Chung Ming Lo, <strong>Shabbir Syed-Abdul</strong>, Li YC Jack(Sept.2017). The integration of image processing and machine learning for the diagnosis of stroke in CT. Computer methods and programs in biomedicine.</li>
-                            <li><strong>Shabbir Syed-Abdul</strong>, Usman Iqbal, Li YC Jack(Aug.2017). The novel use of an Extreme learning machines for clinical decision support systems. Computer methods and programs in biomedicine.</li>
-                            <li><strong>Shabbir Syed-Abdul</strong>, Usman Iqbal, Li YC Jack(June 2017). Predictive Analytics through Machine Learning in the clinical settings. Computer methods and programs in biomedicine.</li>
-                            <li>Suleman Atique, Chung-Ho Hsieh, Ruei-Ting Hsiao, Usman Iqbal, Phung Anh Alex Nguyen, Md Mohaimenul Islam, Yu-Chuan Jack Li, Chien-Yeh Hsu, Ting-Wu Chuang, <strong>Shabbir Syed-Abdul</strong>(June 2017). Viral warts (Human Papilloma Virus) as a potential risk for breast cancer among younger females. Computer methods and programs in biomedicine.</li>
-                            <li>Md Mohaimenul Islam, Usman Iqbal, Bruno Andreas Walther, Phung-Anh Nguyen, Yu-Chuan Jack Li, Navneet Kumar Dubey, Tahmina Nasrin Poly, Jakir Hossain Bhuiyan Masud, Suleman Atique, <strong>Shabbir Syed-Abdul</strong>(June 2017). Gender-based personalized pharmacotherapy: a systematic review. Archives of gynecology and obstetrics.</li>
-                            <li>Usman Iqbal, Phung Anh Nguyen, <strong>Shabbir Syed-Abdul</strong>, Wen-Shan Jian, Yu-Chuan Jack Li(Apr. 2017). Observational Data Exploration Via Online Tool For For Drugs and Cancer Risk. International Journal for Population Data Science.</li>
-                            <li>Brook Tesfaye, Suleman Atique, Noah Elias, Legesse Dibaba, <strong>Shabbir Syed-Abdul</strong>, Mihiretu ebede(Mar. 2017). Determinants and development of a webbased child mortality prediction model in resource-limited settings: A data mining approach. Computer methods and programs in biomedicine.</li>
-                            <li><strong>Shabbir Syed-Abdul</strong>, Usman Iqbal, Yu-Chuan Jack Li(Feb. 2017). Evaluating quality improvement methods and economics of preventable adverse events in the healthcare: From Africa to Europe. International Journal for Quality in Health Care.</li>
-                            <li>Eman Asiri, Mohamed Khalifa, <strong>Shabbir Syed-Abdul</strong>, Md Nassif Hossain, Usman Iqbal, Mowafa Househ(Feb. 2017). Sharing sensitive health information through social media in the Arab world. International Journal for Quality in Health Care.</li>
-                            <li>Tahmina Nasrin Poly, Md Mohaimenul Islam, Bruno Andreas Walther, Hsuan-Chia Yang, Phung-Anh Nguyen, Chih-Wei Huang, <strong>Shabbir Syed-Abdul</strong>, Yu-Chuan Jack Li(2017). Exploring the Association between Statin Use and the Risk of Parkinson&rsquo;s Disease: A Meta-Analysis of Observational Studies. Neuroepidemiology.</li>
-                            <li>Suleman Atique, <strong>Shabbir Syed Abdul</strong>, Chien-Yeh Hsu, Ting-Wu Chuang(Oct. 2016). Meteorological influences on dengue transmission in Pakistan. Asian Pacific journal of tropical medicine.</li>
-                            <li>Alan Hwang, Leslie Chou, MM Islam, Yu-Chuan Li, <strong>Shabbir Syed-Abdul</strong>(Oct. 2016). Risk factors for ectopic pregnancy in the Taiwanese population: a retrospective observational study. Archives of gynecology and obstetrics.</li>
-                            <li><strong>Shabbir Syed-Abdul</strong>, Usman Iqbal, Yu-Chuan Li(Sept. 2016). Impact of continuity of care on preventable hospitalization and evaluating patient safety indicators between Italy and the USA. International Journal for Quality in Health Care.</li>
-                            <li>Suleman Atique, Mowafa Hosueh, Luis Fernandez-Luque, Elia Gabarron, Marian Wan, Onkar Singh, Vicente Traver Salcedo, Yu-Chuan Jack Li, <strong>Shabbir Syed-Abdul</strong>(Aug.2016). Lessons learnt from a MOOC about social media for digital health literacy. Engineering in Medicine and Biology Society (EMBC), 2016 IEEE 38th Annual International Conference.</li>
-                            <li>Navneet Kumar Dubey, <strong>Shabbir Syed-Abdul</strong>, Phung Anh Nguyen, Rajni Dubey, Usman Iqbal, Yu-Chuan Li, Wei-Hong Chen, Win-Ping Deng(Aug.2016). Association between anxiety state and mitral valve disorders: A Taiwanese population-wide observational study. Computer methods and programs in biomedicine.</li>
-                            <li><strong>Shabbir Syed-Abdul</strong>, Elia Gabarron, Annie Lau(June 2016). Participatory Health Through Social Media. Academic Press.</li>
-                            <li>Usman Iqbal, <strong>Shabbir Syed-Abdul</strong>, Yu-Chuan Jack Li(June 2016). Advantages of involving patients in the guidelines development. International Journal for Quality in Health Care.</li>
-                            <li>Hong-Jie Dai, Musa Touray, Jitendra Jonnagaddala, <strong>Shabbir Syed-Abdul</strong>(May 2016). Feature engineering for recognizing adverse drug reactions from twitter posts. Information.</li>
-                            <li>Usman Iqbal, Chun-Kung Hsu, Phung Anh Alex Nguyen, Daniel Livius Clinciu, Richard Lu, <strong>Shabbir Syed-Abdul</strong>, Hsuan-Chia Yang, Yao-Chin Wang, Chu-Ya Huang, Chih-Wei Huang, Yo-Cheng Chang, Min-Huei Hsu, Wen-Shan Jian, Yu-Chuan Jack Li(Apr.2016). Cancer-disease associations: A visualization and animation through medical big data. Computer methods and programs in biomedicine.</li>
-                            <li>Usman Iqbal, <strong>Shabbir Syed-Abdul</strong>, Yu-Chuan Li(Mar.2016). Work environment and quality improvement in healthcare. International Journal for Quality in Health Care.</li>
-                            <li>Suleman Atique, Yen-Liang Lee, <strong>Shabbir Syed-Abdul</strong>, Chien-Yeh Hsu, Hsiao-Hsien Rau(Feb.2016). Organizational Benefits of Computerized Physician Order Entry (CPOE) System in Pakistan. Platform Technology and Service (PlatCon), 2016 International Conference.</li>
-                            <li><strong>Shabbir Syed-Abdul</strong>, Usman Iqbal, Yu-Chuan Li(Jan.2016). Improvingtrustworthiness for the codes of International Classification of Diseases 11th version and reducing hospital readmissions in order to improve healthcare services. International Journal for Quality in Health Care.</li>
-                            <li><strong>Shabbir Syed-Abdul</strong>, E Gabarron, AYS Lau, M Househ(2016). An introduction to participatory health through social media. Participatory Health Through Social Media.</li>
-                            <li>Benjamin All&egrave;s, Camille Pouchieu, Anne Gruber, Pierre Lebailly, Hugues Loiseau, Pascale Fabbro-Peray, Luc Letenneur, Isabelle Baldi, Seung-Kwon Myung, Hong-Bae Kim, Sun-Mi Lee, Yon Chul Park, Caroline Arquizan, Luc Bauchet, Christina F Lassen, Lars Bertram, Beate Ritz, Yu-Hsuan Chuang, Christina M Lill, Pei-Chen Lee, Johnni Hansen, Naomi Greene, Janet S Sinsheimer, Md Mohaimenul Islam, Usman Iqbal, Bruno Walther, Navneet Kumar Dubey, Suleman Atique, Phung-Anh Nguyen, Tahmina Nasrin Poly, Jakir Hossain Bhuiyan Masud, Yu-Chuan Jack Li, <strong>Shabbir Syed-Abdul</strong>, Daniel G Hackam, Moira K Kapral, Manav V Vyas, Frank L Silver, Audrey Laporte, Ana Villaverde-Hueso, Germ&aacute;n S&aacute;nchez-D&iacute;az, Greta Arias-Merino, Manuel Hens, Antonio Morales-Piga, Ignacio Abaitua-Borda, Eva Bermejo-S&aacute;nchez, Manuel Posada de la Paz, Ver&oacute;nica Alonso-Ferreira, Rashmee U Shah, Austin B Rupp, Danielle Mowery, Mingyuan Zhang, Greg Stoddard, Vikrant Deshmukh, Bruce E Bray, Rachel Hess, Matthew T Rondina, Druckerei St&uuml;ckle, Korean Meta-Analysis (KORMA) Study Group(2016). New Zealand Applied Neurosciences Conference. Auckland, New Zealand, November 24-26, 2016: Abstracts. Neuroepidemiology.</li>
-                            <li>Md Mohaimenul Islam, Usman Iqbal, Bruno Walther, Suleman Atique, Navneet Kumar Dubey, Phung-Anh Nguyen, Tahmina Nasrin Poly, Jakir Hossain Bhuiyan Masud, Yu-Chuan Jack Li, <strong>Shabbir Syed-Abdul</strong>(2016). Benzodiazepine use and risk of dementia in the elderly population: a systematic review and meta-analysis. Neuroepidemiology.</li>
-                            <li>Qinghua Wang, <strong>Shabbir Syed-Abdul</strong>, Lara Almeida, Sophia Ananiadou, Yalbi I Balderas-Mart&iacute;nez, Riza Batista-Navarro, David Campos, Lucy Chilton, Hui-Jou Chou, Gabriela Contreras, Laurel Cooper, Hong-Jie Dai, Barbra Ferrell, Juliane Fluck, Socorro Gama-Castro, Nancy George, Georgios Gkoutos, Afroza K Irin, Lars J Jensen, Silvia Jimenez, Toni R Jue, Ingrid Keseler, Sumit Madan, S&eacute;rgio Matos, Peter McQuilton, Marija Milacic, Matthew Mort, Jeyakumar Natarajan, Evangelos Pafilis, Emiliano Pereira, Shruti Rao, Fabio Rinaldi, Karen Rothfels, David Salgado, Raquel M Silva, Onkar Singh, Raymund Stefancsik, Chu-Hsien Su, Suresh Subramani, Hamsa D Tadepally, Loukia Tsaprouni, Nicole Vasilevsky, Xiaodong Wang, Andrew Chatr-Aryamontri, Stanley JF Laulederkind, Sherri Matis-Mitchell, Johanna McEntyre, Sandra Orchard, Sangya Pundir, Raul Rodriguez-Esteban, Kimberly Van Auken, Zhiyong Lu, Mary Schaeffer, Cathy H Wu, Lynette Hirschman, Cecilia N Arighi(2016). Overview of the interactive task in BioCreative V. Database.</li>
-                            <li>Vallaurie Crawford, <strong>Shabbir Syed-Abdul</strong>(2016). Health Information Technologies for Geriatrics: The Big Picture. Nursing Informatics.</li>
-                            <li>CK Wang, ONKAR Singh, HJ Dai, JITENDRA Jonnagaddala, TONI ROSE Jue, USMAN Iqbal, ECY Su, <strong>Shabbir Syed-Abdul</strong>, JYC Li(Jan.2016). NTTMUNSW system for adverse drug reactions extraction in Twitter data. Proceedings of the Social Media Mining Shared Task Workshop at the Pacific Symposium on Biocomputing, Big Island, HI, USA.</li>
-                            <li>Hong-Jie Dai, Chu-Hsien Su, Po-Ting Lai, Ming-Siang Huang, Jitendra Jonnagaddala, Toni Rose Jue, Shruti Rao, Hui-Jou Chou, Marija Milacic, Onkar Singh, <strong>Shabbir Syed-Abdul</strong>, Wen-Lian Hsu(Jan.2016). MET network in PubMed: a text-mined network visualization and curation system. Database.</li>
-                            <li>Usman Iqbal, <strong>Shabbir Syed-Abdul</strong>, Yu-Chuan Li(Nov.2015). Health information technology and team work to improve health care. International Journal for Quality in Health Care.</li>
-                            <li>Balla Rama Devi, <strong>Shabbir Syed-Abdul</strong>, Arun Kumar, Usman Iqbal, Phung-Anh Nguyen, Yu-Chuan Jack Li, Wen-Shan Jian(Nov.2015). mHealth: An updated systematic review with a focus on HIV/AIDS and tuberculosis long term management using mobile phones. Computer methods and programs in biomedicine.</li>
-                            <li><strong>Shabbir Syed-Abdul</strong>, Min-Huei Hsu, Usman Iqbal, Jeremiah Scholl, Chih-Wei Huang, Phung Anh Nguyen, Peisan Lee, Maria Teresa Garc&iacute;a-Romero, Yu-Chuan Li, Wen-Shan Jian(Sept.2015). Utilizing health information technology to support universal healthcare delivery: experience of a national healthcare system. Telemedicine and e-Health.</li>
-                            <li>Usman Iqbal, <strong>Shabbir Syed-Abdul</strong>, Yu-Chuan Li(Aug.2015). Improving quality of care and patient safety as a priority. International Journal for Quality in Health Care.</li>
-                            <li>Yu-Chuan Jack Li, Ju-Chuan Yen, Wen-Ta Chiu, Wen-Shan Jian, <strong>Shabbir Syed-Abdul</strong>, Min-Huei Hsu(Aug.2015). Building a National Electronic Medical Record Exchange System&ndash;Experiences in Taiwan. Computer methods and programs in biomedicine.</li>
-                            <li><strong>Shabbir Syed-Abdul</strong>, Usman Iqbal, Yu-Chuan Li(July 2015). Healthcare quality and safety in developing countries. International Journal for Quality in Health Care.</li>
-                            <li>K Byamba, <strong>Shabbir Syed-Abdul</strong>, M Garc&iacute;a-Romero, C-W Huang, S Nergyi, A Nyamdorj, P-A Nguyen, U Iqbal, K Paik, L Celi, V Nikore, M Somai, W-S Jian, Y-C Li(July 2015). Mobile teledermatology for a prompter and more efficient dermatological care in rural Mongolia. The British journal of dermatology.</li>
-                            <li>Chih-Wei Huang, Usman Iqbal, <strong>Shabbir Syed-Abdul</strong>, Wen-Shan Jian, Yu-Chuan Jack Li(Mar.2015). Visualization of the Spectrum on Chronic Kidney Disease. Indian Journal of Medical Informatics.</li>
-                            <li>Chih-Wei Huang, <strong>Shabbir Syed-Abdul</strong>, Wen-Shan Jian, Usman Iqbal, Phung-Anh Nguyen, Peisan Lee, Shen-Hsien Lin, Wen-Ding Hsu, Mai-Szu Wu, Chun-Fu Wang, Kwan-Liu Ma, Yu-Chuan Li(Mar.2015). A novel tool for visualizing chronic kidney disease associated polymorbidity: a 13-year cohort study in Taiwan. Journal of the American Medical Informatics Association.</li>
-                            <li>P Lee, C‐F Chen, H‐T Wan, W‐S Jian, M‐H Hsu, <strong>Shabbir Syed</strong><strong>‐</strong><strong>Abdul</strong>, C‐W Huang, Y‐C Huang, Y‐T Lin, T‐J Chen, Y‐HWu, Y‐C Li(Mar.2015). iSlide: a &lsquo;big picture&rsquo;interactive teledermatopathology e‐learning system. British Journal of Dermatology.</li>
-                            <li><strong>Shabbir Syed-Abdul</strong>, Max Moldovan, Phung-Anh Nguyen, Ruslan Enikeev, Wen-Shan Jian, Usman Iqbal, Min-Huei Hsu, Yu-Chuan Li(Feb.2015). Profiling phenome-wide associations: a population-based observational study. Journal of the American Medical Informatics Association.</li>
-                            <li>Usman Iqbal, Phung-Anh Nguyen, <strong>Shabbir Syed-Abdul</strong>, Hsuan-Chia Yang, Chih-Wei Huang, Wen-Shan Jian, Min-Huei Hsu, Yun Yen, Yu-Chuan Jack Li(Feb.2015). Is long-term use of benzodiazepine a risk for cancer? Medicine.</li>
-                            <li>Usman Iqbal, <strong>Shabbir Syed-Abdul</strong>, Phung-Anh Nguyen, Wen-Shan Jian,Yu-Chuan Li(Jan.2015). Physicians&rsquo; antibiotic prescribing behavior in Taiwan, 1998&ndash;2011. Clinical Infectious Diseases.</li>
-                            <li>Hong-Jie Dai, <strong>Shabbir Syed-Abdul</strong>, Chih-Wei Chen, Chieh-Chen Wu(2015). Recognition and evaluation of clinical section headings in clinical documents using token-based formulation with conditional random fields. BioMed research international.</li>
-                            <li><strong>Shabbir Syed-Abdul</strong>, Max Moldovan, Phung-Anh Nguyen,Ruslan Enikeev, WenShan Jian, Usman Iqbal, Min-Huei Hsu, Yu-Chuan (Jack) Li* (2014, Nov)."Profiling Phenome-wide Associations: A Population-based ObservationalStudy". Journal of the American Medical Informatics Association.</li>
-                            <li><strong>Shabbir Syed-Abdul*</strong>, Min-Huei Hsu*, Usman Iqbal, Jeremiah Scholl, ChihWei Huang, Phung Anh Nguyen, Peisan Lee, Maria Teresa Garc&iacute;a-Romero, YuChuan(Jack)Li, Wen-Shan Jian(2014, Nov.). Utilizing Health Information Technology to Support Universal Healthcare Delivery: Experience of a National Healthcare System. Telemedicine and e-Health.</li>
-                            <li>Lee, C.-F. Chen, H.-T. Wan, W.-S. Jian, M.-H. Hsu, <strong>S. Syed-Abdul</strong>,C.-W. Huang,Y.-C. Huang,Y.-T.Lin,T.-J. Chen,Y.-H. Wu*,Y.-C. Li*( (2014, Jul). iSlide&ndash;An Interactive Teledermatopathology e-Learning System with &ldquo;Big Picture&rdquo;. British Journal of Dermatology.</li>
-                            <li><strong>Shabbir Syed-Abdul</strong>, Alex Nguyen, Frank Huang, Wen-Shan Jian, Usman Iqbal,Vivian Yang, Min-Huei Hsu ,Yu-Chuan Li. " (2014, Jul). A Smart Medication Recommendation Model for The Electronic Prescription. . Computer Methods and Programs in Biomedicine.</li>
-                            <li>Phung Anh Nguyen, <strong>Shabbir Syed-Abdul</strong>, Usman Iqbal, Min-Huei Hsu, ChenLing Huang, Hsien-Chang Li, Daniel Livius Clinciu, Wen-Shan Jian,Yu-ChuanJack Li (2013, Dec). A Probabilistic Model for Reducing Medication Errors. PloS ONE.</li>
-                            <li>Che-Wei Lin, <strong>Shabbir Syed Abdul</strong>, Daniel L Clinciu, Jeremias Scholl, Xiangdong Jin, Haifei Lu, Steve S Chen, Usman Iqbal, Maxwell J Heineck, YuChuanLi (2013, Nov). Empowering Village Doctors and Enhancing Rural Healthcare using Cloud Computing in a Rural Area of Mainland China. Computer methods and programs in biomedicine.</li>
-                            <li>Min-Huei Hsu, <strong>Shabbir Syed-Abdul</strong>, Jeremiah Scholl, Wen-Shan Jian, PeisanLee, Usman Iqbal and Yu-Chuan Li (2013, Jun). The incidence rate and mortality of malignant brain tumors after 10 years of intensive cell phone use in Taiwan. European Journal of Cancer Prevention.</li>
-                            <li>Phung Anh Nguyen, <strong>Syed-Abdul Shabbir</strong>, Wen-Shan Jian, YC Li (2013, May). A method to manage and share anti-retroviral (ARV) therapy information of Human Immunodeficiency Virus (HIV) patients in Vietnam. Computer methods and programs in biomedicine.</li>
-                            <li><strong>Shabbir Syed-Abdul</strong>, L Fernandez-Luque, WS Jian, YC Li, S Crain, MH Hsu, YC Wang, DM Liou . (2013, Feb). Misleading Health-Related Information Promoted Through Video-Based Social Media: Anorexia on YouTube. Journal of medical Internet research</li>
-                            <li>WS Jian, M11 Hsu,&nbsp; H Sukati, _<strong>S Syed-Abdul</strong>,&nbsp; J Scholl,&nbsp; N Dube,&nbsp; CK Hsu, T Wu, Vera, YC Li (2012, Sep). LabPush: A Pilot Study of Providing Remote Clinics with Laboratory Results via Short Message Service&nbsp; (SMS) in Swaziland, Africa. PloS one .( SCI journal, IF3.234&nbsp; and Rank&nbsp;&nbsp; 8%)</li>
-                            <li>WS Jian, <strong>S Syed-Abdul</strong>, S Sood, P Lee, MH Hsu, CH Ho, YC Li, HC Wen(2012, Aug). Factors influencing consumer adoption of USB-based Personal Health Records in Taiwan. BMC Health Services Research . ( SCI journal, IF 1. 712 and Rank 47. 7%&nbsp;&nbsp; )</li>
-                            <li><strong>S Syed-Abdul</strong>, J Scholl, P Lee, WS Jian, DM Liou, YC Li (2012, Sep). Study on the potential for delay tolerant networks by health workers in low resource settings. Computer methods and programs in biomedicine. ( SCI journal, 897 and Rank&nbsp; 14.7%)</li>
-                            <li><strong>S Syed-Abdul</strong>, J Scholl,&nbsp; CC Chen, MDPS Santos, WS Jian,&nbsp; DM Liou, YC Li (2012,&nbsp; July). Telemedicine Utilization to Support the Management of the Burns Treatment Involving Patient Pathways in Both Developed and Developing Countries: A Case Study.&nbsp; Journal of Burn Care &amp; Research.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (SCI journal, IF 1.425 and Rank 53%)</li>
-                            <li>Yu-Chuan Li, Don E Detmer, <strong>Syed-Abdul Shabbir</strong>, Phung Anh Nguyen, WenShan Jian, George I Mihalas, Edward H Shortliffe, Paul Tang, Reinhold Hau, Michio Kimura (2012, Jan). A global travelers' electronic health record template standard for personal health records. J Am Med Inform Assoc.( SCI journal,&nbsp; IF 3.504 and Rank 5.8%)</li>
-                            <li>YT Chang, <strong>S Syed-Abdul</strong>, CY Tsai, YC Li (2011, Dec). A novel method for inferring RFID tag reader recordings into clinical events. International journal of medical informatics. ( SCI journal, IF 2.004&nbsp;&nbsp;&nbsp;&nbsp; and Rank&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3% )</li>
-                            <li><strong>S Syed-Abdul</strong>, CW Lin, J Scholl, L Fernandez-Luque, WS Jian, MH Hsu, DM Liou, YC Li (2011,Jun). Facebook use leads to health-care reform in Taiwan. The Lancet.441-.( SCI journal,&nbsp; IF 45.217 and Rank 1.3%)</li>
-                            <li><strong>Shabbir Syed-Abdul</strong>, Wen-Shan Jian, Peisan Lee, Yu-Chuan Li, Min-Huei Hsu. (2011, Jun) Superbug demands organizational change of the healthcare system. J Pharmacol Pharmacotherapy. ( SCI journal,&nbsp; IF 2.264 and Rank 52.2%)</li>
-                            <li><strong>S Syed-Abdul</strong>, J Scholl, WS Jian, YC Li (2011, Sep).&nbsp; Challenges and Opportunities of Telemedicine in India.&nbsp; Journal of Telemedicine and Telecare. (SCI journal, IF1.542 and Rank 55. 7%)</li>
-                            <li>Jeremiah Scholl, <strong>Shabbir Syed-Abdul,</strong> Luai Awad Ahmed. (2011, Dec) A case study of an EMR system at a large hospital in India: Challenges and strategies for successful adoption. Journal of Biomedical Informatics. ( SCI journal, IF 2.126 and Rank 23.5% )</li>
-                            <li>WS Jian, HC Wen, J Scholl, <strong>S Syed-Abdul</strong>, P Lee, CY Hsu, YC Li (2011, Mar). The Taiwanese method for providing patients data from multiple hospital HER systems. Journal of biomedical informatics. ( SCI journal,&nbsp; IF 2.126 and Rank 23.5%)</li>
-                            <li><strong>S Syed-Abdul</strong>, L Fernandez-Luque, YC Li, Mil Hsu, PS Lee, WT Chiu (2011, Feb). Leaks and Threats to Patient data . BMJ . ( SCI journal, IF 2.271 and Rank 26%)</li>
-                        </ol>
+                        <div class="col-md-12">
+                            <div class="tab" role="tabpanel">
+                                <!-- Nav tabs -->
+                                <ul class="nav nav-tabs " role="tablist">
+                                    <li role="presentation" class="active"><a href="#Section1" aria-controls="home" role="tab" data-toggle="tab">PUBLICATIONS</a></li>
+                                    <li role="presentation"><a href="#Section2" aria-controls="profile" role="tab" data-toggle="tab">BOOKS</a></li>
+                                    <li role="presentation"><a href="#Section3" aria-controls="messages" role="tab" data-toggle="tab">MEDIA</a></li>
+                                    <li role="presentation"><a href="#Section4" aria-controls="messages" role="tab" data-toggle="tab">MENTORSHIP</a></li>
+                                </ul>
+                                <!-- Tab panes -->
+                                <div class="tab-content tabs">
+                                    <div role="tabpanel" class="tab-pane fade in active" id="Section1">
+                                        <small style="align-content: flex-end;">&#9913; = Correspondent Author</small><br>
+                                        <ol>
+                                            <li>Wadali, Jagjot Singh, Sanjay P. Sood, Rajesh Kaushish, <strong>Shabbir Syed-Abdul</strong>, Praveen K. Khosla, and Madhu Bhatia. "Evaluation of Free, Open-source, Web-based DICOM Viewers for the Indian National Telemedicine Service (eSanjeevani)." Journal of Digital Imaging 33, no. 6 (2020): 1499-1513.</li>
+                                            <li>Uddin, Mohy, and <strong>Shabbir Syed-Abdul</strong>. "Introduction to digital health approach and mHealth applications for participatory health." In Digital Health, pp. 1-6. Elsevier, 2020.</li>
+                                            <li>Ryan, Charles, Alexa Minc, Juan Caceres, Alexandra Balsalobre, Achal Dixit, Becky KaPik Ng, Florian Schmitzberger, <strong>Shabbir Syed-Abdul</strong>, and Christopher Fung. "Predicting severe outcomes in Covid-19 related illness using only patient demographics, comorbidities and symptoms." The American Journal of Emergency Medicine (2020).</li>
+                                            <li>Cooper J. Galvin; Yu-Chuan (Jack) Li; Shwetambara Malwade; <strong>Shabbir Syed-Abdul</strong>. COVID-19 preventive measures showing an unintended decline in infectious diseases in Taiwan. International Journal of Infectious Diseases. Accepted June 2020.</li>
+                                            <li>Dovgan, Erik, Anton Gradi&scaron;ek, Mitja Lu&scaron;trek, Mohy Uddin, Aldilas Achmad Nursetyo, Sashi Kiran Annavarajula, Yu-Chuan Li, and <strong>Shabbir Syed-Abdul</strong>. "Using machine learning models to predict the initiation of renal replacement therapy among chronic kidney disease patients." Plos one 15, no. 6 (2020): e0233976.</li>
+                                            <li>Srinivasan, Kathiravan, Nivedhitha Mahendran, Durai Raj Vincent, Chuan-Yu Chang, and <strong>Shabbir Syed-Abdul</strong>. "Realizing an Integrated Multistage Support Vector Machine Model for Augmented Recognition of Unipolar Depression." Electronics 9, no. 4 (2020): 647.</li>
+                                            <li><strong>Syed-Abdul, S</strong>., Firdani, R.P., Chung, H.J., Uddin, M., Hur, M., Park, J.H., Kim, H.W., Gradi&scaron;ek, A. and Dovgan, E., 2020. Artificial Intelligence based Models for Screening of Hematologic Malignancies using Cell Population Data. Scientific Reports, 10(1), pp.1-8.</li>
+                                            <li>Uddin, Mohy, and <strong>Shabbir Syed-Abdul</strong>. "Data Analytics and Applications of the Wearable Sensors in Healthcare: An Overview." (2020): 1379.</li>
+                                            <li>Hors-Fraile, Santiago, Shwetambara Malwade, Francisco Luna-Perejon, Claudio Amaya, Ant&oacute;n Civit, Francine Schneider, Panagiotis Bamidis, <strong>Shabbir Syed-Abdul</strong>, Yu-Chuan Li, and Hein de Vries. "Opening the Black Box: Explaining the Process of Basing a Health Recommender System on the I-Change Behavioural Change Model." IEEE Access (2019).</li>
+                                            <li>Luna-Perejon, Francisco, Shwetambara Malwade, Charis Styliadis, Javier Civit, Daniel Cascado-Caballero, Evdokimos Konstantinidis, <strong>Shabbir Syed Abdul</strong>, Panagiotis D. Bamidis, Anton Civit, and Yu-Chuan Jack Li. "Evaluation of user satisfaction and usability of a mobile app for smoking cessation." Computer methods and programs in biomedicine 182 (2019): 105042.</li>
+                                            <li><strong>Syed-Abdul, S</strong>., Malwade, S., Nursetyo, A. A., Sood, M., Bhatia, M., Barsasella, D., ... &amp; Li, Y. C. J. (2019). Virtual reality among the elderly: a usefulness and acceptance study from Taiwan. BMC geriatrics, 19(1), 1-10.</li>
+                                            <li>Nursetyo, A. A., <strong>Syed-Abdul, S</strong>., Uddin, M., &amp; Li, Y. J. (2019). Graft Rejection Prediction Following Kidney Transplantation Using Machine Learning Techniques: A Systematic Review and Meta-Analysis. Studies in health technology and informatics, 264, 10-14.</li>
+                                            <li>Uddin, M., &amp; <strong>Syed-Abdul, S</strong>. (2018). Role of electronic patient reported safety incidents in improving patient safety and care.&nbsp;International Journal for Quality in Health Care.</li>
+                                            <li>Hors-Fraile, Santiago, Shwetambara Malwade, Dimitris Spachos, Luis Fernandez-Luque, Chien-Tien Su, Wei-Li Jeng, <strong>Shabbir Syed-Abdul</strong>, Panagiotis Bamidis, and Yu-Chuan Jack Li. "A recommender system to quit smoking with mobile motivational messages: study protocol for a randomized controlled trial."&nbsp;Trials&nbsp;19, no. 1 (2018): 618.</li>
+                                            <li>Islam, M., Poly, T. N., Walther, B. A., Dubey, N. K., Anggraini Ningrum, D. N., &amp; <strong>Shabbir, S. A</strong>. (2018). Adverse outcomes of long-term use of proton pump inhibitors: a systematic review and meta-analysis.&nbsp;European journal of gastroenterology &amp; hepatology,&nbsp;30(12), 1395-1405.</li>
+                                            <li>Dubey, Navneet, Dina Ningrum, Rajni Dubey, Yue-Hua Deng, Yu-Chuan Li, Peter Wang, Joseph Wang, <strong>Shabbir Syed-Abdul</strong>, and Win-Ping Deng. "Correlation between diabetes mellitus and knee osteoarthritis: A dry-to-wet lab approach."&nbsp;International journal of molecular sciences&nbsp;19, no. 10 (2018): 3021.</li>
+                                            <li>Thakur, Saurabh, <strong>Shabbir Abdul</strong>, Hsiao-Yean Chiu, Ram Roy, Po-Yu Huang, Shwetambara Malwade, Aldilas Nursetyo, and Yu-Chuan Li. "Artificial-Intelligence-Based Prediction of Clinical Events among Hemodialysis Patients Using Non-Contact Sensor Data."&nbsp;Sensors&nbsp;18, no. 9 (2018): 2833.</li>
+                                            <li>Iqbal, U., Dagan, A., <strong>Syed-Abdul, S</strong>., Celi, L. A., Malwade, S., Hsu, M. H., &amp; Li, Y. J. (2018). A hackathon promoting Taiwanese health-IoT innovation.&nbsp;Computer methods and programs in biomedicine,&nbsp;163, 29.</li>
+                                            <li>Ganapathy, K., <strong>Abdul, S. S</strong>., &amp; Nursetyo, A. A. (2018). Artificial intelligence in neurosciences: A clinician's perspective.&nbsp;Neurology India,&nbsp;66(4), 934.</li>
+                                            <li>Shwetambara Malwade, <strong>Shabbir Syed Abdul*</strong>, Mohy Uddin, Aldilas Achmad Nursetyo, Luis Fernandez-Luque, Xinxin Katie Zhu, Liezel Cilliers, Chun-Por Wong, Panagiotis Bamidis, Yu-Chuan Jack Li (2018). &ldquo;Mobile and wearable technologies in healthcare for the ageing population&rdquo;. Computer methods and programs in biomedicine. IF 2.503, Rank 20.2%, Total score: 54.0 <a href="https://www.sciencedirect.com/science/article/pii/S0169260717314578">https://www.sciencedirect.com/science/article/pii/S0169260717314578</a></li>
+                                            <li>Shwetambara Kekade, Chung-Ho Hseieh, Md Mohaimenul Islam, Suleman Atique, Abdulwahed Mohammed Khalfan, Yu-Chuan Li, <strong>Shabbir Syed Abdul*</strong>(Jan.2018)."The usefulness and actual use of wearable devices among the elderly population". Computer methods and programs in biomedicine.</li>
+                                            <li>Suleman Atique, Ta-Chien Chan, Chien-Chou Chen, Chien-Yeh Hsu, Somia Iqtidar, Val&eacute;rie R Louis, <strong>Syed Abdul Shabbir</strong>, Ting-Wu Chuang(Dec.2017), "Investigating spatio-temporal distribution and diffusion patterns of the dengue outbreak in Swat, Pakistan". Journal of infection and public health.</li>
+                                            <li>Md Mohaimenul Islam, Hsuan-Chia Yang, Phung-Anh Nguyen, Tahmina Nasrin Poly, Chih-Wei Huang, Shwetambara Kekade, Abdulwahed Mohammed Khalfan, Tonmoy Debnath, Yu-Chuan Jack Li, <strong>Shabbir Syed Abdul</strong>(Dec.2017). "Exploring association between statin use and breast cancer risk: an updated meta-analysis". Archives of gynecology and obstetrics.</li>
+                                            <li>Hong-Jie Dai, Emily Chia-Yu Su, Mohy Uddin, Jitendra Jonnagaddala, Chi-Shin Wu, <strong>Shabbir Syed-Abdul</strong>(Nov.2017). "Exploring associations of clinical and social parameters with violent behaviors among psychiatric patients". Journal of biomedical informatics.</li>
+                                            <li>Usman Iqbal, Tzu-Hao Chang, Phung-Anh Nguyen, <strong>Shabbir Syed-Abdul</strong>, Hsuan-Chia Yang, Chih-Wei Huang, Suleman Atique, Wei-Chung Yang, Max Moldovan, Wen-Shan Jian, Min-Huei Hsu, Yun Yen, Yu-Chuan Jack Li(Oct.2017). "Benzodiazepines use and breast cancer risk: A population-based study and gene expression profiling evidence". Journal of biomedical informatics.</li>
+                                            <li>Chung Ming Lo, <strong>Shabbir Syed-Abdul</strong>, Li YC Jack(Sept.2017). The integration of image processing and machine learning for the diagnosis of stroke in CT. Computer methods and programs in biomedicine.</li>
+                                            <li><strong>Shabbir Syed-Abdul</strong>, Usman Iqbal, Li YC Jack(Aug.2017). The novel use of an Extreme learning machines for clinical decision support systems. Computer methods and programs in biomedicine.</li>
+                                            <li><strong>Shabbir Syed-Abdul</strong>, Usman Iqbal, Li YC Jack(June 2017). Predictive Analytics through Machine Learning in the clinical settings. Computer methods and programs in biomedicine.</li>
+                                            <li>Suleman Atique, Chung-Ho Hsieh, Ruei-Ting Hsiao, Usman Iqbal, Phung Anh Alex Nguyen, Md Mohaimenul Islam, Yu-Chuan Jack Li, Chien-Yeh Hsu, Ting-Wu Chuang, <strong>Shabbir Syed-Abdul</strong>(June 2017). Viral warts (Human Papilloma Virus) as a potential risk for breast cancer among younger females. Computer methods and programs in biomedicine.</li>
+                                            <li>Md Mohaimenul Islam, Usman Iqbal, Bruno Andreas Walther, Phung-Anh Nguyen, Yu-Chuan Jack Li, Navneet Kumar Dubey, Tahmina Nasrin Poly, Jakir Hossain Bhuiyan Masud, Suleman Atique, <strong>Shabbir Syed-Abdul</strong>(June 2017). Gender-based personalized pharmacotherapy: a systematic review. Archives of gynecology and obstetrics.</li>
+                                            <li>Usman Iqbal, Phung Anh Nguyen, <strong>Shabbir Syed-Abdul</strong>, Wen-Shan Jian, Yu-Chuan Jack Li(Apr. 2017). Observational Data Exploration Via Online Tool For For Drugs and Cancer Risk. International Journal for Population Data Science.</li>
+                                            <li>Brook Tesfaye, Suleman Atique, Noah Elias, Legesse Dibaba, <strong>Shabbir Syed-Abdul</strong>, Mihiretu ebede(Mar. 2017). Determinants and development of a webbased child mortality prediction model in resource-limited settings: A data mining approach. Computer methods and programs in biomedicine.</li>
+                                            <li><strong>Shabbir Syed-Abdul</strong>, Usman Iqbal, Yu-Chuan Jack Li(Feb. 2017). Evaluating quality improvement methods and economics of preventable adverse events in the healthcare: From Africa to Europe. International Journal for Quality in Health Care.</li>
+                                            <li>Eman Asiri, Mohamed Khalifa, <strong>Shabbir Syed-Abdul</strong>, Md Nassif Hossain, Usman Iqbal, Mowafa Househ(Feb. 2017). Sharing sensitive health information through social media in the Arab world. International Journal for Quality in Health Care.</li>
+                                            <li>Tahmina Nasrin Poly, Md Mohaimenul Islam, Bruno Andreas Walther, Hsuan-Chia Yang, Phung-Anh Nguyen, Chih-Wei Huang, <strong>Shabbir Syed-Abdul</strong>, Yu-Chuan Jack Li(2017). Exploring the Association between Statin Use and the Risk of Parkinson&rsquo;s Disease: A Meta-Analysis of Observational Studies. Neuroepidemiology.</li>
+                                            <li>Suleman Atique, <strong>Shabbir Syed Abdul</strong>, Chien-Yeh Hsu, Ting-Wu Chuang(Oct. 2016). Meteorological influences on dengue transmission in Pakistan. Asian Pacific journal of tropical medicine.</li>
+                                            <li>Alan Hwang, Leslie Chou, MM Islam, Yu-Chuan Li, <strong>Shabbir Syed-Abdul</strong>(Oct. 2016). Risk factors for ectopic pregnancy in the Taiwanese population: a retrospective observational study. Archives of gynecology and obstetrics.</li>
+                                            <li><strong>Shabbir Syed-Abdul</strong>, Usman Iqbal, Yu-Chuan Li(Sept. 2016). Impact of continuity of care on preventable hospitalization and evaluating patient safety indicators between Italy and the USA. International Journal for Quality in Health Care.</li>
+                                            <li>Suleman Atique, Mowafa Hosueh, Luis Fernandez-Luque, Elia Gabarron, Marian Wan, Onkar Singh, Vicente Traver Salcedo, Yu-Chuan Jack Li, <strong>Shabbir Syed-Abdul</strong>(Aug.2016). Lessons learnt from a MOOC about social media for digital health literacy. Engineering in Medicine and Biology Society (EMBC), 2016 IEEE 38th Annual International Conference.</li>
+                                            <li>Navneet Kumar Dubey, <strong>Shabbir Syed-Abdul</strong>, Phung Anh Nguyen, Rajni Dubey, Usman Iqbal, Yu-Chuan Li, Wei-Hong Chen, Win-Ping Deng(Aug.2016). Association between anxiety state and mitral valve disorders: A Taiwanese population-wide observational study. Computer methods and programs in biomedicine.</li>
+                                            <li><strong>Shabbir Syed-Abdul</strong>, Elia Gabarron, Annie Lau(June 2016). Participatory Health Through Social Media. Academic Press.</li>
+                                            <li>Usman Iqbal, <strong>Shabbir Syed-Abdul</strong>, Yu-Chuan Jack Li(June 2016). Advantages of involving patients in the guidelines development. International Journal for Quality in Health Care.</li>
+                                            <li>Hong-Jie Dai, Musa Touray, Jitendra Jonnagaddala, <strong>Shabbir Syed-Abdul</strong>(May 2016). Feature engineering for recognizing adverse drug reactions from twitter posts. Information.</li>
+                                            <li>Usman Iqbal, Chun-Kung Hsu, Phung Anh Alex Nguyen, Daniel Livius Clinciu, Richard Lu, <strong>Shabbir Syed-Abdul</strong>, Hsuan-Chia Yang, Yao-Chin Wang, Chu-Ya Huang, Chih-Wei Huang, Yo-Cheng Chang, Min-Huei Hsu, Wen-Shan Jian, Yu-Chuan Jack Li(Apr.2016). Cancer-disease associations: A visualization and animation through medical big data. Computer methods and programs in biomedicine.</li>
+                                            <li>Usman Iqbal, <strong>Shabbir Syed-Abdul</strong>, Yu-Chuan Li(Mar.2016). Work environment and quality improvement in healthcare. International Journal for Quality in Health Care.</li>
+                                            <li>Suleman Atique, Yen-Liang Lee, <strong>Shabbir Syed-Abdul</strong>, Chien-Yeh Hsu, Hsiao-Hsien Rau(Feb.2016). Organizational Benefits of Computerized Physician Order Entry (CPOE) System in Pakistan. Platform Technology and Service (PlatCon), 2016 International Conference.</li>
+                                            <li><strong>Shabbir Syed-Abdul</strong>, Usman Iqbal, Yu-Chuan Li(Jan.2016). Improvingtrustworthiness for the codes of International Classification of Diseases 11th version and reducing hospital readmissions in order to improve healthcare services. International Journal for Quality in Health Care.</li>
+                                            <li><strong>Shabbir Syed-Abdul</strong>, E Gabarron, AYS Lau, M Househ(2016). An introduction to participatory health through social media. Participatory Health Through Social Media.</li>
+                                            <li>Benjamin All&egrave;s, Camille Pouchieu, Anne Gruber, Pierre Lebailly, Hugues Loiseau, Pascale Fabbro-Peray, Luc Letenneur, Isabelle Baldi, Seung-Kwon Myung, Hong-Bae Kim, Sun-Mi Lee, Yon Chul Park, Caroline Arquizan, Luc Bauchet, Christina F Lassen, Lars Bertram, Beate Ritz, Yu-Hsuan Chuang, Christina M Lill, Pei-Chen Lee, Johnni Hansen, Naomi Greene, Janet S Sinsheimer, Md Mohaimenul Islam, Usman Iqbal, Bruno Walther, Navneet Kumar Dubey, Suleman Atique, Phung-Anh Nguyen, Tahmina Nasrin Poly, Jakir Hossain Bhuiyan Masud, Yu-Chuan Jack Li, <strong>Shabbir Syed-Abdul</strong>, Daniel G Hackam, Moira K Kapral, Manav V Vyas, Frank L Silver, Audrey Laporte, Ana Villaverde-Hueso, Germ&aacute;n S&aacute;nchez-D&iacute;az, Greta Arias-Merino, Manuel Hens, Antonio Morales-Piga, Ignacio Abaitua-Borda, Eva Bermejo-S&aacute;nchez, Manuel Posada de la Paz, Ver&oacute;nica Alonso-Ferreira, Rashmee U Shah, Austin B Rupp, Danielle Mowery, Mingyuan Zhang, Greg Stoddard, Vikrant Deshmukh, Bruce E Bray, Rachel Hess, Matthew T Rondina, Druckerei St&uuml;ckle, Korean Meta-Analysis (KORMA) Study Group(2016). New Zealand Applied Neurosciences Conference. Auckland, New Zealand, November 24-26, 2016: Abstracts. Neuroepidemiology.</li>
+                                            <li>Md Mohaimenul Islam, Usman Iqbal, Bruno Walther, Suleman Atique, Navneet Kumar Dubey, Phung-Anh Nguyen, Tahmina Nasrin Poly, Jakir Hossain Bhuiyan Masud, Yu-Chuan Jack Li, <strong>Shabbir Syed-Abdul</strong>(2016). Benzodiazepine use and risk of dementia in the elderly population: a systematic review and meta-analysis. Neuroepidemiology.</li>
+                                            <li>Qinghua Wang, <strong>Shabbir Syed-Abdul</strong>, Lara Almeida, Sophia Ananiadou, Yalbi I Balderas-Mart&iacute;nez, Riza Batista-Navarro, David Campos, Lucy Chilton, Hui-Jou Chou, Gabriela Contreras, Laurel Cooper, Hong-Jie Dai, Barbra Ferrell, Juliane Fluck, Socorro Gama-Castro, Nancy George, Georgios Gkoutos, Afroza K Irin, Lars J Jensen, Silvia Jimenez, Toni R Jue, Ingrid Keseler, Sumit Madan, S&eacute;rgio Matos, Peter McQuilton, Marija Milacic, Matthew Mort, Jeyakumar Natarajan, Evangelos Pafilis, Emiliano Pereira, Shruti Rao, Fabio Rinaldi, Karen Rothfels, David Salgado, Raquel M Silva, Onkar Singh, Raymund Stefancsik, Chu-Hsien Su, Suresh Subramani, Hamsa D Tadepally, Loukia Tsaprouni, Nicole Vasilevsky, Xiaodong Wang, Andrew Chatr-Aryamontri, Stanley JF Laulederkind, Sherri Matis-Mitchell, Johanna McEntyre, Sandra Orchard, Sangya Pundir, Raul Rodriguez-Esteban, Kimberly Van Auken, Zhiyong Lu, Mary Schaeffer, Cathy H Wu, Lynette Hirschman, Cecilia N Arighi(2016). Overview of the interactive task in BioCreative V. Database.</li>
+                                            <li>Vallaurie Crawford, <strong>Shabbir Syed-Abdul</strong>(2016). Health Information Technologies for Geriatrics: The Big Picture. Nursing Informatics.</li>
+                                            <li>CK Wang, ONKAR Singh, HJ Dai, JITENDRA Jonnagaddala, TONI ROSE Jue, USMAN Iqbal, ECY Su, <strong>Shabbir Syed-Abdul</strong>, JYC Li(Jan.2016). NTTMUNSW system for adverse drug reactions extraction in Twitter data. Proceedings of the Social Media Mining Shared Task Workshop at the Pacific Symposium on Biocomputing, Big Island, HI, USA.</li>
+                                            <li>Hong-Jie Dai, Chu-Hsien Su, Po-Ting Lai, Ming-Siang Huang, Jitendra Jonnagaddala, Toni Rose Jue, Shruti Rao, Hui-Jou Chou, Marija Milacic, Onkar Singh, <strong>Shabbir Syed-Abdul</strong>, Wen-Lian Hsu(Jan.2016). MET network in PubMed: a text-mined network visualization and curation system. Database.</li>
+                                            <li>Usman Iqbal, <strong>Shabbir Syed-Abdul</strong>, Yu-Chuan Li(Nov.2015). Health information technology and team work to improve health care. International Journal for Quality in Health Care.</li>
+                                            <li>Balla Rama Devi, <strong>Shabbir Syed-Abdul</strong>, Arun Kumar, Usman Iqbal, Phung-Anh Nguyen, Yu-Chuan Jack Li, Wen-Shan Jian(Nov.2015). mHealth: An updated systematic review with a focus on HIV/AIDS and tuberculosis long term management using mobile phones. Computer methods and programs in biomedicine.</li>
+                                            <li><strong>Shabbir Syed-Abdul</strong>, Min-Huei Hsu, Usman Iqbal, Jeremiah Scholl, Chih-Wei Huang, Phung Anh Nguyen, Peisan Lee, Maria Teresa Garc&iacute;a-Romero, Yu-Chuan Li, Wen-Shan Jian(Sept.2015). Utilizing health information technology to support universal healthcare delivery: experience of a national healthcare system. Telemedicine and e-Health.</li>
+                                            <li>Usman Iqbal, <strong>Shabbir Syed-Abdul</strong>, Yu-Chuan Li(Aug.2015). Improving quality of care and patient safety as a priority. International Journal for Quality in Health Care.</li>
+                                            <li>Yu-Chuan Jack Li, Ju-Chuan Yen, Wen-Ta Chiu, Wen-Shan Jian, <strong>Shabbir Syed-Abdul</strong>, Min-Huei Hsu(Aug.2015). Building a National Electronic Medical Record Exchange System&ndash;Experiences in Taiwan. Computer methods and programs in biomedicine.</li>
+                                            <li><strong>Shabbir Syed-Abdul</strong>, Usman Iqbal, Yu-Chuan Li(July 2015). Healthcare quality and safety in developing countries. International Journal for Quality in Health Care.</li>
+                                            <li>K Byamba, <strong>Shabbir Syed-Abdul</strong>, M Garc&iacute;a-Romero, C-W Huang, S Nergyi, A Nyamdorj, P-A Nguyen, U Iqbal, K Paik, L Celi, V Nikore, M Somai, W-S Jian, Y-C Li(July 2015). Mobile teledermatology for a prompter and more efficient dermatological care in rural Mongolia. The British journal of dermatology.</li>
+                                            <li>Chih-Wei Huang, Usman Iqbal, <strong>Shabbir Syed-Abdul</strong>, Wen-Shan Jian, Yu-Chuan Jack Li(Mar.2015). Visualization of the Spectrum on Chronic Kidney Disease. Indian Journal of Medical Informatics.</li>
+                                            <li>Chih-Wei Huang, <strong>Shabbir Syed-Abdul</strong>, Wen-Shan Jian, Usman Iqbal, Phung-Anh Nguyen, Peisan Lee, Shen-Hsien Lin, Wen-Ding Hsu, Mai-Szu Wu, Chun-Fu Wang, Kwan-Liu Ma, Yu-Chuan Li(Mar.2015). A novel tool for visualizing chronic kidney disease associated polymorbidity: a 13-year cohort study in Taiwan. Journal of the American Medical Informatics Association.</li>
+                                            <li>P Lee, C‐F Chen, H‐T Wan, W‐S Jian, M‐H Hsu, <strong>Shabbir Syed</strong><strong>‐</strong><strong>Abdul</strong>, C‐W Huang, Y‐C Huang, Y‐T Lin, T‐J Chen, Y‐HWu, Y‐C Li(Mar.2015). iSlide: a &lsquo;big picture&rsquo;interactive teledermatopathology e‐learning system. British Journal of Dermatology.</li>
+                                            <li><strong>Shabbir Syed-Abdul</strong>, Max Moldovan, Phung-Anh Nguyen, Ruslan Enikeev, Wen-Shan Jian, Usman Iqbal, Min-Huei Hsu, Yu-Chuan Li(Feb.2015). Profiling phenome-wide associations: a population-based observational study. Journal of the American Medical Informatics Association.</li>
+                                            <li>Usman Iqbal, Phung-Anh Nguyen, <strong>Shabbir Syed-Abdul</strong>, Hsuan-Chia Yang, Chih-Wei Huang, Wen-Shan Jian, Min-Huei Hsu, Yun Yen, Yu-Chuan Jack Li(Feb.2015). Is long-term use of benzodiazepine a risk for cancer? Medicine.</li>
+                                            <li>Usman Iqbal, <strong>Shabbir Syed-Abdul</strong>, Phung-Anh Nguyen, Wen-Shan Jian,Yu-Chuan Li(Jan.2015). Physicians&rsquo; antibiotic prescribing behavior in Taiwan, 1998&ndash;2011. Clinical Infectious Diseases.</li>
+                                            <li>Hong-Jie Dai, <strong>Shabbir Syed-Abdul</strong>, Chih-Wei Chen, Chieh-Chen Wu(2015). Recognition and evaluation of clinical section headings in clinical documents using token-based formulation with conditional random fields. BioMed research international.</li>
+                                            <li><strong>Shabbir Syed-Abdul</strong>, Max Moldovan, Phung-Anh Nguyen,Ruslan Enikeev, WenShan Jian, Usman Iqbal, Min-Huei Hsu, Yu-Chuan (Jack) Li* (2014, Nov)."Profiling Phenome-wide Associations: A Population-based ObservationalStudy". Journal of the American Medical Informatics Association.</li>
+                                            <li><strong>Shabbir Syed-Abdul*</strong>, Min-Huei Hsu*, Usman Iqbal, Jeremiah Scholl, ChihWei Huang, Phung Anh Nguyen, Peisan Lee, Maria Teresa Garc&iacute;a-Romero, YuChuan(Jack)Li, Wen-Shan Jian(2014, Nov.). Utilizing Health Information Technology to Support Universal Healthcare Delivery: Experience of a National Healthcare System. Telemedicine and e-Health.</li>
+                                            <li>Lee, C.-F. Chen, H.-T. Wan, W.-S. Jian, M.-H. Hsu, <strong>S. Syed-Abdul</strong>,C.-W. Huang,Y.-C. Huang,Y.-T.Lin,T.-J. Chen,Y.-H. Wu*,Y.-C. Li*( (2014, Jul). iSlide&ndash;An Interactive Teledermatopathology e-Learning System with &ldquo;Big Picture&rdquo;. British Journal of Dermatology.</li>
+                                            <li><strong>Shabbir Syed-Abdul</strong>, Alex Nguyen, Frank Huang, Wen-Shan Jian, Usman Iqbal,Vivian Yang, Min-Huei Hsu ,Yu-Chuan Li. " (2014, Jul). A Smart Medication Recommendation Model for The Electronic Prescription. . Computer Methods and Programs in Biomedicine.</li>
+                                            <li>Phung Anh Nguyen, <strong>Shabbir Syed-Abdul</strong>, Usman Iqbal, Min-Huei Hsu, ChenLing Huang, Hsien-Chang Li, Daniel Livius Clinciu, Wen-Shan Jian,Yu-ChuanJack Li (2013, Dec). A Probabilistic Model for Reducing Medication Errors. PloS ONE.</li>
+                                            <li>Che-Wei Lin, <strong>Shabbir Syed Abdul</strong>, Daniel L Clinciu, Jeremias Scholl, Xiangdong Jin, Haifei Lu, Steve S Chen, Usman Iqbal, Maxwell J Heineck, YuChuanLi (2013, Nov). Empowering Village Doctors and Enhancing Rural Healthcare using Cloud Computing in a Rural Area of Mainland China. Computer methods and programs in biomedicine.</li>
+                                            <li>Min-Huei Hsu, <strong>Shabbir Syed-Abdul</strong>, Jeremiah Scholl, Wen-Shan Jian, PeisanLee, Usman Iqbal and Yu-Chuan Li (2013, Jun). The incidence rate and mortality of malignant brain tumors after 10 years of intensive cell phone use in Taiwan. European Journal of Cancer Prevention.</li>
+                                            <li>Phung Anh Nguyen, <strong>Syed-Abdul Shabbir</strong>, Wen-Shan Jian, YC Li (2013, May). A method to manage and share anti-retroviral (ARV) therapy information of Human Immunodeficiency Virus (HIV) patients in Vietnam. Computer methods and programs in biomedicine.</li>
+                                            <li><strong>Shabbir Syed-Abdul</strong>, L Fernandez-Luque, WS Jian, YC Li, S Crain, MH Hsu, YC Wang, DM Liou . (2013, Feb). Misleading Health-Related Information Promoted Through Video-Based Social Media: Anorexia on YouTube. Journal of medical Internet research</li>
+                                            <li>WS Jian, M11 Hsu,&nbsp; H Sukati, _<strong>S Syed-Abdul</strong>,&nbsp; J Scholl,&nbsp; N Dube,&nbsp; CK Hsu, T Wu, Vera, YC Li (2012, Sep). LabPush: A Pilot Study of Providing Remote Clinics with Laboratory Results via Short Message Service&nbsp; (SMS) in Swaziland, Africa. PloS one .( SCI journal, IF3.234&nbsp; and Rank&nbsp;&nbsp; 8%)</li>
+                                            <li>WS Jian, <strong>S Syed-Abdul</strong>, S Sood, P Lee, MH Hsu, CH Ho, YC Li, HC Wen(2012, Aug). Factors influencing consumer adoption of USB-based Personal Health Records in Taiwan. BMC Health Services Research . ( SCI journal, IF 1. 712 and Rank 47. 7%&nbsp;&nbsp; )</li>
+                                            <li><strong>S Syed-Abdul</strong>, J Scholl, P Lee, WS Jian, DM Liou, YC Li (2012, Sep). Study on the potential for delay tolerant networks by health workers in low resource settings. Computer methods and programs in biomedicine. ( SCI journal, 897 and Rank&nbsp; 14.7%)</li>
+                                            <li><strong>S Syed-Abdul</strong>, J Scholl,&nbsp; CC Chen, MDPS Santos, WS Jian,&nbsp; DM Liou, YC Li (2012,&nbsp; July). Telemedicine Utilization to Support the Management of the Burns Treatment Involving Patient Pathways in Both Developed and Developing Countries: A Case Study.&nbsp; Journal of Burn Care &amp; Research.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (SCI journal, IF 1.425 and Rank 53%)</li>
+                                            <li>Yu-Chuan Li, Don E Detmer, <strong>Syed-Abdul Shabbir</strong>, Phung Anh Nguyen, WenShan Jian, George I Mihalas, Edward H Shortliffe, Paul Tang, Reinhold Hau, Michio Kimura (2012, Jan). A global travelers' electronic health record template standard for personal health records. J Am Med Inform Assoc.( SCI journal,&nbsp; IF 3.504 and Rank 5.8%)</li>
+                                            <li>YT Chang, <strong>S Syed-Abdul</strong>, CY Tsai, YC Li (2011, Dec). A novel method for inferring RFID tag reader recordings into clinical events. International journal of medical informatics. ( SCI journal, IF 2.004&nbsp;&nbsp;&nbsp;&nbsp; and Rank&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3% )</li>
+                                            <li><strong>S Syed-Abdul</strong>, CW Lin, J Scholl, L Fernandez-Luque, WS Jian, MH Hsu, DM Liou, YC Li (2011,Jun). Facebook use leads to health-care reform in Taiwan. The Lancet.441-.( SCI journal,&nbsp; IF 45.217 and Rank 1.3%)</li>
+                                            <li><strong>Shabbir Syed-Abdul</strong>, Wen-Shan Jian, Peisan Lee, Yu-Chuan Li, Min-Huei Hsu. (2011, Jun) Superbug demands organizational change of the healthcare system. J Pharmacol Pharmacotherapy. ( SCI journal,&nbsp; IF 2.264 and Rank 52.2%)</li>
+                                            <li><strong>S Syed-Abdul</strong>, J Scholl, WS Jian, YC Li (2011, Sep).&nbsp; Challenges and Opportunities of Telemedicine in India.&nbsp; Journal of Telemedicine and Telecare. (SCI journal, IF1.542 and Rank 55. 7%)</li>
+                                            <li>Jeremiah Scholl, <strong>Shabbir Syed-Abdul,</strong> Luai Awad Ahmed. (2011, Dec) A case study of an EMR system at a large hospital in India: Challenges and strategies for successful adoption. Journal of Biomedical Informatics. ( SCI journal, IF 2.126 and Rank 23.5% )</li>
+                                            <li>WS Jian, HC Wen, J Scholl, <strong>S Syed-Abdul</strong>, P Lee, CY Hsu, YC Li (2011, Mar). The Taiwanese method for providing patients data from multiple hospital HER systems. Journal of biomedical informatics. ( SCI journal,&nbsp; IF 2.126 and Rank 23.5%)</li>
+                                            <li><strong>S Syed-Abdul</strong>, L Fernandez-Luque, YC Li, Mil Hsu, PS Lee, WT Chiu (2011, Feb). Leaks and Threats to Patient data . BMJ . ( SCI journal, IF 2.271 and Rank 26%)</li>
+                                        </ol>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade" id="Section2">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <img src="images/b1.jpg" class="img-fluid img-responsive" alt="">
+                                            </div>
+                                            <div class="col-md-9">
+                                                <h2 style="font-size: 24px">Participatory Health through Social Media </h2>
+                                                <p>Edited by: <b>Shabbir Syed-Abdul</b>, Elia Gabarron and Annie Lau </p>
+                                                <p>ISBN: 978-0-12-809269-9. </p>
+                                                <p>Publisher: Elsevier Inc.2016.</p>
+                                            </div>
+                                        </div>
+                                        <div class="row" style="margin-top: 10px">
+                                            <div class="col-md-3">
+                                                <img src="images/b2.jpg" class="img-fluid img-responsive" alt="">
+                                            </div>
+                                            <div class="col-md-9">
+                                                <h2 style="font-size: 24px">Digital Health : Mobile and Wearable Devices for Participatory Health Applications </h2>
+                                                <p>Edited by : <b>Shabbir Syed-Abdul</b> , Xinxin Zhu , Luis Fernandez-Luque </p>
+                                                <p>ISBN10 0128200774 </p>
+                                                <p>ISBN13 9780128200773 </p>
+                                                <p>Publisher: Elsevier Science Publishing Co Inc. 2020</p>
+                                            </div>
+                                        </div>
+                                        <div class="row" style="margin-top: 10px">
+                                            <div class="col-md-3">
+                                                <img src="images/b1.jpg" class="img-fluid img-responsive" alt="">
+                                            </div>
+                                            <div class="col-md-9">
+                                                <h2 style="font-size: 24px">Smart Home Technologies and Services for Geriatric Rehabilitation </h2>
+                                                <p>Edited by : Amine Choukou, and <b>Shabbir Syed-Abdul</b></p>
+
+                                                <p>Publisher: Elsevier Science Publishing Co Inc. 2021</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade" id="Section3">
+
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade" id="Section4">
+                                        <h2 style="font-size: 22px">- PhD Students:</h2>
+                                        <p>
+                                            <b>Graduated</b> <br>
+                                            1) Suleman Atique Gondal, PhD<br>
+                                            Thesis title: Time and Space Analysis of Dengue Fever-Taking Pakistan as an Example
+
+                                        </p>
+                                        <p>
+                                            <b>Ongoing</b><br>
+                                            2) Diana Barsasella (PhD)<br>
+
+                                            3) Eshita Dhar (PhD)
+
+                                        </p>
+                                        <h2 style="font-size: 22px">- Master students:</h2>
+                                        <p>
+                                            <b>Graduated</b><br>
+                                            1) Shwetambara Malwade, MSc<br>
+                                            Thesis title: An accessibility and usability of wearable devices among elderly population: A systematic review and survey<br><br>
+
+                                            2) Md. Mohaimenul Islam, MSc, (PhD)<br>
+                                            Thesis title: Comparison of drugs based on data analysis and clinical trials in health care: a study of statin use and cancer risk<br><br>
+
+                                            3) Aldilas Achmad Nursetyo, MSc<br>
+                                            Thesis title: Prediction of the start time of renal replacement therapy in patients with chronic kidney disease<br><br>
+
+
+                                            4) Rianda-Putra Firdani, MSc<br>
+                                            Thesis title: <br>
+                                            Screening bloodline diseases based on artificial intelligence model cell population data<br><br>
+
+                                            <b>Ongoing</b><br>
+                                            5) Sim-Mei, Choo (MSc)<br>
+
+                                            6) Karamo Bah(MSc)<br>
+
+                                            7) Adama(MSc)
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
 
 
 
 
                     </div>
-                    <header>
-                        <h3>Books</h3>
-                    </header>
-                    <div class="blog-box-caption">
-                        <div class="row">
-                            <div class="col-md-3">
-                                <img src="images/b1.jpg" class="img-fluid img-responsive" alt="">
-                            </div>
-                            <div class="col-md-9">
-                                <h2 style="font-size: 24px">Participatory Health through Social Media </h2>
-                                <p>Edited by: <b>Shabbir Syed-Abdul</b>, Elia Gabarron and Annie Lau </p>
-                                <p>ISBN: 978-0-12-809269-9. </p>
-                                <p>Publisher: Elsevier Inc.2016.</p>
-                            </div>
-                        </div>
-                        <div class="row" style="margin-top: 10px">
-                            <div class="col-md-3">
-                                <img src="images/b2.jpg" class="img-fluid img-responsive" alt="">
-                            </div>
-                            <div class="col-md-9">
-                                <h2 style="font-size: 24px">Digital Health : Mobile and Wearable Devices for Participatory Health Applications </h2>
-                                <p>Edited by : <b>Shabbir Syed-Abdul</b> , Xinxin Zhu , Luis Fernandez-Luque </p>
-                                <p>ISBN10 0128200774 </p>
-                                <p>ISBN13 9780128200773 </p>
-                                <p>Publisher: Elsevier Science Publishing Co Inc. 2020</p>
-                            </div>
-                        </div>
-                        <div class="row" style="margin-top: 10px">
-                            <div class="col-md-3">
-                                <img src="images/b1.jpg" class="img-fluid img-responsive" alt="">
-                            </div>
-                            <div class="col-md-9">
-                                <h2 style="font-size: 24px">Smart Home Technologies and Services for Geriatric Rehabilitation </h2>
-                                <p>Edited by : Amine Choukou, and <b>Shabbir Syed-Abdul</b></p>
-
-                                <p>Publisher: Elsevier Science Publishing Co Inc. 2021</p>
-                            </div>
-                        </div>
-                    </div>
-                    <header>
-                        <h3>Media</h3>
-                    </header>
-                    <div class="blog-box-caption">
-                        <div class="row">
-                            <div class="col-md-8">
-                                <video controls>
-                                    <source src="images/vdo.mp4" type="video/mp4">
-                                    Your browser does not support HTML5 video.
-                                </video>
-                            </div>
-                        </div>
-                    </div>
-
-                    <header>
-                        <h3>Mentorship</h3>
-                    </header>
-                    <div class="blog-box-caption">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <h2 style="font-size: 22px">- PhD Students:</h2>
-                                <p>
-                                    <b>Graduated</b> <br>
-                                    1) Suleman Atique Gondal, PhD<br>
-                                    Thesis title: Time and Space Analysis of Dengue Fever-Taking Pakistan as an Example
-
-                                </p>
-                                <p>
-                                    <b>Ongoing</b><br>
-                                    2) Diana Barsasella (PhD)<br>
-
-                                    3) Eshita Dhar (PhD)
-
-                                </p>
-                                <h2 style="font-size: 22px">- Master students:</h2>
-                                <p>
-                                    <b>Graduated</b><br>
-                                    1) Shwetambara Malwade, MSc<br>
-                                    Thesis title: An accessibility and usability of wearable devices among elderly population: A systematic review and survey<br><br>
-
-                                    2) Md. Mohaimenul Islam, MSc, (PhD)<br>
-                                    Thesis title: Comparison of drugs based on data analysis and clinical trials in health care: a study of statin use and cancer risk<br><br>
-
-                                    3) Aldilas Achmad Nursetyo, MSc<br>
-                                    Thesis title: Prediction of the start time of renal replacement therapy in patients with chronic kidney disease<br><br>
 
 
-                                    4) Rianda-Putra Firdani, MSc<br>
-                                    Thesis title: <br>
-                                    Screening bloodline diseases based on artificial intelligence model cell population data<br><br>
 
-                                    <b>Ongoing</b><br>
-                                    5) Sim-Mei, Choo (MSc)<br>
-
-                                    6) Karamo Bah(MSc)<br>
-
-                                    7) Adama(MSc)
-
-                                </p>
-                            </div>
-                        </div>
-                    </div>
                 </div>
                 <!-- .container -->
             </div>
@@ -648,12 +719,14 @@
         </section>
         <!-- end: CONTACT Section -->
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/imagesloaded.pkgd.min.js"></script>
     <script src="assets/js/masonry.pkgd.min.js"></script>
     <script src="assets/js/jquery.backstretch.min.js"></script>
     <script src="assets/js/jquery.stellar.min.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
+    <!--    <script src="assets/js/owl.carousel.min.js"></script>-->
     <script src="assets/js/jquery.shuffle.min.js"></script>
     <script src="assets/js/jquery.hoverdir.js"></script>
     <script src="assets/js/jquery.lazy.min.js"></script>
