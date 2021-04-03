@@ -2,9 +2,9 @@
 .intro-text {
   letter-spacing: 4px;
   text-transform: uppercase;
-  text-align: center;
-  background: rgba(0, 0, 0, 0.596);
-  padding:24px 0px;
+/*  text-align: center;*/
+/*  background: rgba(0, 0, 0, 0.596);*/
+  padding:24px 0px 24px 15px;
 
 }
 .intro-text .weight300 {
